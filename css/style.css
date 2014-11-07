@@ -202,6 +202,8 @@ body {
 
 .results { margin: 0.8em; }
 
+/* results header */
+
 .result-header {
   color: #666;
   display: block;
@@ -256,7 +258,6 @@ body {
   border-radius: 0.375em;
   display: inline-block;
   overflow: hidden;
-
   width: auto;
 }
 
