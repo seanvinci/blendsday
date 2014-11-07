@@ -198,14 +198,9 @@ body {
 }
 
 
-/* CONTENT */
+/* Results */
 
-/*.content {
-  margin: 0 auto;
-  max-width: 30em;
-}*/
-
-/*.content > div { margin: 0.8em; }*/
+.results { margin: 0.8em; }
 
 .result-header {
   color: #666;
@@ -216,14 +211,23 @@ body {
   text-align: center;
 }
 
-/* post grid */
+/* single result */
 
-.results {
-  margin: 0 auto;
-  max-width: 48em;
+.results-single {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40em;
 }
 
-.results ul {
+/* results grid */
+
+.results-grid {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50em;
+}
+
+.results-grid ul {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   list-style: none;
@@ -231,14 +235,14 @@ body {
   padding: 0;
 }
 
-.results li {
+.results-grid li {
   border: 1px solid #ddd;
   display: inline;
   font-size: 0;
   padding: 0;
 }
 
-.results li .img-wrap { border-radius: 0; }
+.results-grid li .img-wrap { border-radius: 0; }
 
 /* 568px */
 @media (min-width: 35.5em) {
@@ -252,13 +256,14 @@ body {
   border-radius: 0.375em;
   display: inline-block;
   overflow: hidden;
+
   width: auto;
 }
 
 
-/* Box */
+/* Post Box */
 
-.box {
+.post-box {
   background: #fff;
   border-radius: 0.375em;
   margin-top: 0.8em;
@@ -266,7 +271,7 @@ body {
   position: relative;
 }
 
-.box:before {
+.post-box:before {
   content: '';
   border-color: transparent transparent #fff transparent;
   border-style: solid;
@@ -278,13 +283,13 @@ body {
   width: 0;
 }
 
-.box small {
+.post-box small {
   color: #999;
   display: block;
   margin-bottom: 0.8em;
 }
 
-.box p {
+.post-box p {
   color: #333;
   font-size: 0.9em;
   margin: 0;
