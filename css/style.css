@@ -165,6 +165,10 @@ body {
 .color.white { background: #fff; }
 .color.grey { background: #777; }
 .color.black { background: #000; }
+.color.all {
+  background: url('../img/colorwheel.png') no-repeat;
+  background-size: 1.75em;
+}
 
 /* 360px */
 @media (min-width: 22.5em) {
