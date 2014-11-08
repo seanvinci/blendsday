@@ -4,4 +4,8 @@ $(document).ready(function() {
     $('.top-banner').toggleClass('closed');
   });
 
+  $('.about button').click(function() {
+    $('.about').toggleClass('closed');
+  });
+
 });
