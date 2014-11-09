@@ -359,6 +359,8 @@ body {
   height: 1.75em;
   opacity: 0.5;
   outline: none;
+  margin: 0;
+  padding: 0;
   position: fixed;
   right: 0.8em;
   -webkit-transition: opacity, bottom, left;
