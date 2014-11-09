@@ -69,7 +69,7 @@ body {
   float: left;
   font-size: 1.7em;
   font-weight: 300;
-  font-family: 'Lobster';
+  font-family: 'Lobster', Helvetica, Arial, sans-serif;
   color: #fff;
   margin: 0;
   line-height: 0.8em;
@@ -221,7 +221,7 @@ body {
 }
 .all {
   background: url('../img/colorwheel.png') no-repeat;
-  background-size: 1.75em;
+  background-size: 1.65em;
 }
 
 
@@ -419,11 +419,10 @@ body {
   position: absolute;
 }
 
-.about.closed button:after {
-  content: '?';
-  font-family: 'Lobster';
-}
+.about.closed button:after { content: '?'; }
+
 .about.closed button:hover { opacity: 0.5; }
+
 .about.closed .moidal {
   left: -9999px;
   opacity: 0;
